@@ -1,0 +1,41 @@
+{% load static %}
+{% block box1%}
+<link rel="stylesheet" href="{% static 'signup33.css' %}">
+
+<form method="POST" action="{% url 'addUser' %}" style="border:1px solid #ccc">
+  {% csrf_token %}
+  <div class="container">
+    <h1>Sign Up</h1>
+    <p id="pp">Please fill in this form to create an account.</p>
+    {% for message in messages %}
+    <h3 style="color: red; text-align:center;"> {{message}}</h3>
+    {% endfor %}
+    <hr>
+    <label for="username"><b>User name:</b></label>
+    <div class="username">
+      <input type="text" placeholder="User name" name="username" required>
+    </div>
+
+    <label for="email"><b>Email:</b></label>
+    <div class="email"><input type="text" placeholder="Enter Email" name="email" required>
+    </div>
+
+    <label for="psw"><b>Password:</b></label>
+    <div class="password"><input type="password" placeholder="Enter Password" name="password" required>
+    </div>
+
+    <label for="psw-repeat"><b>RepeatPassword:</b></label>
+    <div class="Repeatpassword"><input type="password" placeholder="Repeat Password" name="Repeatpassword" required>
+    </div>
+
+
+    <div class="clearfix">
+
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+    <div class="account">
+      <p style="text-align: center;">Already have an account <a href="{% url 'log_page' %}">Login</a></p>
+    </div>
+</form>
+
+{% endblock %}

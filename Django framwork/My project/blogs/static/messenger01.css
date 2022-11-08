@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxchat{
+    display: none;
+}
+.boxchat:target{
+    display: block;
+}
+.box{
+    display: flex;
+   
+}
+
+.z{
+    z-index: 99;
+    padding: 8rem 0 0 10rem; 
+    box-shadow: 10px 20px 20px -20px rgb(71, 65, 65);
+}
+.left{
+    position: fixed;
+    margin-top: 100px;
+    width: 30%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.z h2{
+    padding-left:  -40px;
+    margin-top: -90px;
+}
+.fa-angle-down{
+    
+    padding-left: 50px;
+}
+.fa-pen-to-square{
+    padding-left: 240px;
+   font-size: 25px;
+}
+.houp{
+    display: flex;
+
+
+}
+.houp:hover {background: rgb(241, 241, 241);}
+.houp img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 15%;
+}
+.houp a{
+   
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.houp1{
+    display: flex;
+}
+.houp1:hover {background: rgb(241, 241, 241);}
+
+
+
+
+
+
+
+/* //////////////////////////////////////////// */
+
+
+.boxchat {
+    margin-left: 20%;
+    z-index: 99;
+    padding: 8rem 0 0 10rem;
+}
+
+.one_list {
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    box-shadow: 10px 20px 20px -20px rgb(71, 65, 65);
+    width: 69%;
+    list-style: none;
+}
+.lasticon a{
+    color: #070202;
+    
+}
+.img{
+    width: 50px;
+    border-radius: 50px;
+    
+}
+.iname__time {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.n_ofperson {
+    list-style: none;
+    color: #070202;
+    padding-left: 10px;
+}
+
+.lasticon i {
+    padding: 1rem;
+}
+/* //////////////////////////// */
+.other_chat {
+    margin-top: 3rem;
+    width: 68%;
+    height: 68vh;
+    overflow-y: scroll;
+    
+    position: fixed;
+    
+}
+
+
+.other_chat li {
+    clear: both;
+    display: inline-block;
+    padding: 10px 4px 0px 4px;
+    margin-top: 20px;
+    font: 16px/20px "Noto Sans", sans-serif;
+    border-radius: 30px;
+    background-color: rgb(239, 240, 194);
+    height: 2.5rem;
+    
+}
+
+.other_chat li:before {
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    content: "";
+}
+
+.other_chat li:after {
+    top: 15px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 15px solid rgb(239, 240, 194);
+}
+
+.other_chat li:nth-child(odd) {
+    float: right;
+    margin-right: 30px;
+}
+
+.other_chat li:nth-child(even) {
+    float: left;
+    margin-left: 30px;
+    color: #070202;
+    background-color: rgb(239, 240, 194);
+}
+
+
+.time__ {
+    float: right;
+    font-size: 9px;
+    margin-top: 1rem;
+}
+
+.text_chat {
+    padding-top: 3rem;
+    
+}
+/* ////////////////////////////////////////////////////////////////// */
+.text_message {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35%;
+    width: 80%;
+   
+    align-items: center;
+}
+
+.emoji {
+    position: absolute;
+    margin-left: 3%;
+}
+.tow_o{
+    position: absolute;
+    margin-left: 7%;
+}
+
+
+.tow_p {
+    margin-left: 20px;
+}
+
+.message {
+    padding: 10px;
+    width: 83%;
+    height: 3rem;
+    text-align: center;
+    background-color: rgb(211, 206, 206);
+    border-radius: 10px;
+  
+}
+
+.message input {
+    color: black;
+    border-radius: 10px;
+    width: 70%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.send {
+    width: 4rem;
+    height: 3rem;
+    color: black;
+    margin-left: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+.fa-paper-plane{
+    margin-left: 20px;
+}
+/* ///////////////////////////////////////// */
+
+.body{
+    z-index: 99;
+    padding: 8rem 0 0 10rem;
+}

@@ -1,0 +1,102 @@
+{% extends 'index2/base.html' %}
+{% load static %}
+{% block box1%}
+<link rel="stylesheet" href="{% static 'setting.css' %}" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div class="box">
+  <div class="left">
+    <div class="Edit">
+      <h2>Edit </h2>
+
+      <div class="name">
+        <div class="name1">Username:</div>
+        <div class="name2">
+          <input type="text" id="lname" name="lname" placeholder=" {{user.username}}" />
+        </div>
+      </div>
+      <div class="name">
+        <div class="username1">Password:</div>
+        <div class="username2">
+          <input type="Password" id="lname" name="lname" placeholder=" password" />
+        </div>
+      </div>
+      <div class="name">
+        <div class="username1">RepeatPassword:</div>
+        <div class="username2">
+          <input type="RepeatPassword" id="lname" name="lname" placeholder=" RepeatPassword" />
+        </div>
+      </div>
+      <div class="name">
+        <div class="Email1">Email:</div>
+        <div class="Email2">
+          <input type="name" id="lname" name="lname" placeholder="{{user.email}}" />
+        </div>
+      </div>
+      <div class="name">
+        <div class="phone1">Phone number:</div>
+        <div class="phone2">
+          <input type="name" id="lname" name="lname" placeholder="" />
+        </div>
+      </div>
+      <div class="name">
+        <div class="gender1">Gender:</div>
+        <div class="gender2">
+          <input type="text" id="lname" name="lname" placeholder="" />
+        </div>
+      </div>
+      <div class="submit">
+        <a href="#">Save</a>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="security">
+      <h2>Security</h2>
+      <i class="fa-solid fa-lock"></i>
+      <h3 id="chatcall">Your chats and calls are private</h3>
+      <p>
+        Encryption keeps your personal <br />
+        messages and calls between you and the people you choose. <br />
+        Not even Chat can read or listen to them. This includes your:
+      </p>
+      <div class="chat">
+        <i class="fa-sharp fa-solid fa-comments"></i>
+        <p id="text">Text and voice messages</p>
+      </div>
+      <div class="call">
+        <i class="fa-solid fa-phone"></i>
+        <p id="auto">Audio and video calls</p>
+      </div>
+      <div class="paperclip">
+        <i class="fa-solid fa-paperclip"></i>
+        <p id="photo">Photos,video and documents</p>
+      </div>
+      <div class="location">
+        <i class="fa-solid fa-location-pin"></i>
+        <p id="lo">Location sharing</p>
+      </div>
+      <!-- <div class="learnmore"><a href="#">Learn more</a></div> -->
+    </div>
+  </div>
+  <div class="bbox">
+    <div class="notifications">
+      <h2>Notifications</h2>
+      <i class="fa-solid fa-bell"></i>
+      <h3 id="pushnotification">Push Notification</h3>
+      <p>Posts, Stories and Comments</p>
+      <p>Following and Followers</p>
+      <p>Messages and Calls</p>
+      <p>Live and Reels</p>
+      <p>From Chat</p>
+      <br>
+      <hr>
+      <h4>Other Notification Types</h4>
+      <p>Email notifications</p>
+      <p>shopping</p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

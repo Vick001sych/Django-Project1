@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box2_b{
+    z-index: 99;
+    padding: 8rem 0 0 10rem;
+    display: flex;
+
+    
+ }
+ .box3_b{
+    border: 1px solid rgb(88, 84, 84);
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+ }
+ 
+ .b3 img{
+    width: 60px;
+    height: 60px;
+    margin-left: 15%;
+    border-radius: 50%;
+    border: rgb(94, 88, 88) solid 2px;
+  
+    
+ }
+.b3 p{
+    margin-left: 20%;
+    color: rgb(60, 68, 68);
+    font-size: 15px;
+    
+}
+.b4 img{
+    width: 60px;
+    margin-left: 25%;
+  
+    border-radius: 50%;
+    border: rgb(221, 58, 85) solid 2px;
+}
+.b4 p{
+    margin-left: 30%;
+    color: rgb(60, 68, 68);
+    font-size: 15px;
+}
+.b5 img{
+    width: 60px;
+    margin-left: 20%;
+  
+    border-radius: 50%;
+    border: rgb(221, 58, 85) solid 2px;
+}
+.b5 p{
+    margin-left: 30%;
+    color: rgb(60, 68, 68);
+    font-size: 15px;
+}
+
+.b6 img{
+    width: 60px;
+    margin-left: 35%;
+  
+    border-radius: 50%;
+    border: rgb(221, 58, 85) solid 2px;
+}
+.b6 p{
+    margin-left: 30%;
+    color: rgb(60, 68, 68);
+    font-size: 15px;
+}
+
+.b7 img{
+    width: 60px;
+    margin-left: 35%;
+  
+    border-radius: 50%;
+    border: rgb(221, 58, 85) solid 2px;
+}
+.b7 p{
+    margin-left: 30%;
+    color: rgb(60, 68, 68);
+    font-size: 15px;
+}
+
+
+.b8 img{
+    width: 60px;
+    margin-left: 35%;
+  
+    border-radius: 50%;
+    border: rgb(168, 162, 163) solid 2px;
+}
+.b8 p{
+    margin-left: 30%;
+    color: rgb(60, 68, 68);
+    font-size: 15px;
+}
+
+
+.aa{
+    border: rgb(155, 150, 150) solid 2px;
+    border-radius: 2%;
+    width: 27rem;
+    margin-top: 30px;
+   margin-left: 11rem;
+
+}
+.box4_b img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: rgb(221, 58, 85) solid 2px;
+}
+.box4_b {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 40px;
+    height: 50px;
+
+}
+.box4_b a{
+    margin-left: -50px;
+ 
+}
+.box4_b h1{
+    font-size: 20px;
+    margin-bottom: 5%;
+    color: rgb(122, 45, 45);
+}
+.box4_b h6{
+color: black;
+margin-bottom: 50%;
+}
+.bb {
+    display: flex;
+  
+}
+.bbb {
+    text-align: left;
+    margin-left: 10px;
+    color: black;
+}
+.bbb h1{
+    color: black;
+}
+.fa-ellipsis{
+    margin-left: 300px ;
+  
+}
+.a img{
+    
+width: 100%;
+  /* margin-top: 20px; */
+  
+}
+
+.cover {
+    display: flex;
+}
+
+.heart{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.fa-comment{
+    margin-left: 10px;
+}
+.fa-paper-plane{
+    margin-left: 10px;
+}
+
+
+.fa-hearts{
+    color: red;
+}
+.fa-bookmark{
+   
+    margin-left: 70%;
+}
+
+ #view{
+
+    color: rgb(139, 138, 136);
+}
+
+#day{
+
+    color: rgb(139, 138, 136);
+    font-size: 10px;
+    margin-top: 10px;
+}
+.fa-face-smile{
+    font-size: 20px;
+}
+
+.kie {
+    display: flex;
+    z-index: 99;
+    padding: 8rem 0 0 10rem;
+    margin-top: 40px;
+    
+}
+.kie img{
+    width: 50px;
+    border-radius: 50px;
+}
+.kie h3{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.see{
+    display: flex;
+    margin-top: 50px;
+}
+#h1{
+    margin-left: 50px;
+}
+#h2{
+    margin-left: 130px;
+}
+.rings{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+    
+}
+.rings1{
+    align-items: center;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    position: fixed;
+    
+    
+    
+}
+.rings img{
+    width: 50%;
+    border: rgb(180, 175, 175) solid 2px;
+    border-radius: 100%;
+}
+
+
+.rings.pic_name{
+    padding-left: 20px;
+}
+
+.column_box{
+    box-sizing: border-box;
+  }
+  
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; 
+    padding-left: 0;
+    margin-top: 30px;
+  }
+
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .rings.flo{
+    color: rgb(0, 93, 231);
+    padding-left: 130px;
+    padding-bottom: 40px;
+    padding-top: 22px;
+}
+.box_right{
+    position: fixed;
+    /* margin-left: 10%; */
+    margin-left: 50%;
+}
+/* 
+.ffll{
+    background-color: bisque;
+    color: aqua;
+    padding: 10px;
+} */
+
+
+
+
+
+
+

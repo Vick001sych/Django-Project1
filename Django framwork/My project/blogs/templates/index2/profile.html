@@ -1,0 +1,35 @@
+{% extends 'index2/base.html' %} {% load static %} {% block box1%}
+<link rel="stylesheet" href="{% static 'profile01.css' %}" />
+<div class="profile">
+  <img src="{% static 'img/vik.jpg' %}" alt="" />
+  <h1>{{user.username}}</h1>
+  <a href="{% url 'setting_page' %}"><i class="fa-solid fa-gear"></i></a>
+  
+</div>
+<div class="follow">
+  <h3>9post</h3>
+  <h3>653followers</h3>
+  <h3>10follwing</h3>
+</div>
+<div class="post">
+  <h1>POSTS</h1>
+</div>
+<hr />
+
+<div class="houp">
+  <img src="{% static 'img/aa.jpg' %}" alt="" />
+  <img src="{% static 'img/b.jpg' %}" alt="" />
+  <img src="{% static 'img/car.png' %}" alt="" />
+</div>
+<div class="houpp">
+  <img src="{% static 'img/e.jpg' %}" alt="" />
+  <img src="{% static 'img/66.png' %}" alt="" />
+  <img src="{% static 'img/g.jpg' %}" alt="" />
+</div>
+<div class="houppp">
+  <img src="{% static 'img/miniem.png' %}" alt="" />
+  <img src="{% static 'img/aaa.jpg' %}" alt="" />
+  <img src="{% static 'img/aaaa.jpg' %}" alt="" />
+</div>
+
+{% endblock %}

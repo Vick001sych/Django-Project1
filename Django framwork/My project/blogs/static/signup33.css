@@ -1,0 +1,117 @@
+.form{
+  /* box-shadow: 10px 20px 20px -20px rgb(71, 65, 65); */
+  width: 50%;
+}
+.container{
+  box-shadow: 10px 20px 20px -20px rgb(56, 55, 55);
+  width: 50%;
+  margin-left: 23%;
+}
+.container h1 {
+  margin-left: 42%;
+}
+
+#pp {
+  margin-left: 37%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box
+}
+
+/* Full-width input fields */
+.container label {
+  margin-left: 30%;
+}
+
+input[type=text],
+input[type=password] {
+  width: 35%;
+  padding: 15px;
+  margin-left: 30%;
+  margin-top: 20px;
+
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+
+
+
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 40px;
+}
+
+/* Set a style for all buttons */
+.clearfix {
+  width: 30%;
+  margin-left: 33%;
+}
+
+button {
+  background-color: rgb(59, 241, 232);
+  color: white;
+  padding: 14px 20px;
+  width: 10%;
+  margin-left: 25%;
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px;
+
+
+}
+
+.account p {
+  margin-top: 30px;
+  margin-right: 55px;
+}
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+/* @media screen and (max-width: 300px) {
+
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+} */

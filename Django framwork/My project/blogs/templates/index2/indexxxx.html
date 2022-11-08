@@ -1,0 +1,144 @@
+{% extends 'index2/base.html' %} 
+{% load static %} 
+{% block box1%}
+
+<link rel="stylesheet" href="{% static 'indexx.css' %}">
+
+<div class="cover">
+  <div class="box_left">
+    <div class="box2_b">
+      <div class="box3_b">
+        <div class="b3">
+          <a href=""> <img src="{% static 'img/plus.png' %}" alt="" />
+            <p>Add Story</p></a>
+         
+        </div>
+
+        <div class="b4">
+          <img src="{% static 'img/cartoon.jpg' %}" alt="" />
+          <p>Nut philavong</p>
+        </div>
+        <div class="b5">
+          <img src="{% static 'img/houp.png' %}" alt="" />
+          <p>Alin ctvs</p>
+        </div>
+        <div class="b6">
+          <img src="{% static 'img/annie.png' %}" alt="" />
+          <p>anniee....</p>
+        </div>
+        <div class="b7">
+          <img src="{% static 'img/lisa.jpg' %}" alt="" />
+          <p>Lisa balckpink</p>
+        </div>
+        <div class="b8">
+          <img src="{% static 'img/c.jpg' %}" alt="" />
+          <p>Rharn....</p>
+        </div>
+      </div>
+    </div>
+    {% for i in news %}
+    <div class="aa">
+      <div class="box4_b">
+       
+          <div class="bb">
+           
+            <div class="bbb">
+              
+              <h1>{{i.title}}</h1>
+              <h6>{{i.date}}</h6>
+              
+            </div>
+            <div>
+              <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+              
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="a">
+        <img src="{{i.image.url}}" alt="" />
+      </div>
+      <div></div>
+      <div class="heart">
+        <div id="flow">
+          <p onclick="displayIcon()" id="fo"><i class="fa-solid fa-heart"></i></p>
+        </div>
+       
+        <i class="fa-solid fa-comment"></i>
+        <i class="fa-solid fa-paper-plane"></i>
+        <i class="fa-solid fa-bookmark"></i>
+      </div>
+      <div class="comment">
+        <p>{{i.description}}</p>
+        
+        <i class="fa-solid fa-face-smile"></i>
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Add a comment..."
+        />
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="box_right">
+    <div class="box">
+      <div class="kie">
+        <img src="{% static 'img/vik.jpg' %}" alt="" />
+       
+        <h3> {{user.username}}</h3>
+      </div>
+      <div class="see">
+        <h4 id="h1">Suggestions For You</h4>
+        <h4 id="h2">See All</h4>
+      </div>
+    </div>
+    <div class="column_box">
+      <div class="row">
+        <div class="column">
+          <div class="rings">
+            <img src="{% static 'img/rings.jpg' %}" alt="" />
+            <h3 class="rings pic_name">7rings</h3>
+          </div>
+          <div class="rings">
+            <img src="{% static 'img/main.png' %}" alt="" />
+            <h3 class="rings pic_name">Doramon</h3>
+          </div>
+          <div class="rings">
+            <img src="{% static 'img/thailand.jpg' %}" alt="" />
+            <h3 class="rings pic_name">Thailand</h3>
+          </div>
+          <div class="rings">
+            <img src="{% static 'img/houp.png' %}" alt="" />
+            <h3 class="rings pic_name">Thipthida</h3>
+          </div>
+          <div class="rings">
+            <img src="{% static 'img/tha.jpg' %}" alt="" />
+            <h3 class="rings pic_name">Bangkok</h3>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div id="follow">
+            <p onclick="switcdarkhMode()" id="fl" class="rings flo">Follow</p>
+          </div>
+          <div id="follow1">
+            <p onclick="switcdarkhMode1()" id="fl1" class="rings flo">Follow</p>
+          </div>
+          <div id="follow2">
+            <p onclick="switcdarkhMode2()" id="fl2" class="rings flo">Follow</p>
+          </div>
+          <div id="follow3">
+            <p onclick="switcdarkhMode3()" id="fl3" class="rings flo">Follow</p>
+          </div>
+          <div id="follow4">
+            <p onclick="switcdarkhMode4()" id="fl4" class="rings flo">Follow</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="{% static 'ja.js' %}"></script>
+{% endblock %}

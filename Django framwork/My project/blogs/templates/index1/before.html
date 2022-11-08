@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'before1.css' %}" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div class="box">
+        <div class="image">
+            <img src="{% static 'img/adminpage.jpg' %}" alt="">
+        </div>
+        <div class="wellcome">
+
+            <h1>Welcome to chat</h1>
+            <img src="{% static 'img/houp.png' %}" alt="" />
+            <div class="box1">
+                <div class="signup">
+                    <a href="{% url 'signup_page'%}"> Signup</a>
+                </div>
+                <div class="Login">
+                    <a href="{% url 'log_page'%}"> Login</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<div class="box">
+    <div class="image">
+        <img src="{% static 'img/Welcome.png' %}" alt="">
+    </div>
+    <div class="box1">
+        <div class="signup">
+            <a href="{% url 'signup_page'%}"> Signup</a>
+        </div>
+        <div class="Login">
+            <a href="{% url 'log_page'%}"> Login</a>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

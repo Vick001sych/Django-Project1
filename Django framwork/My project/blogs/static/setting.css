@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Edit h2{
+    color: rgb(2, 2, 2);
+}
+.box{
+    display: flex;
+}
+.left{
+    
+    padding: 8rem 0 0 10rem;
+    /* display: flex; */
+}
+.name{
+    padding-top: 20px;
+}
+.username{
+    padding-top: 20px;
+}
+.submit{
+    margin-top: 40px;
+}
+.submit a {
+    text-decoration: none;
+    background-color: rgb(12, 10, 10);
+    padding: 10px 15px;
+    width: 90px;
+    color: rgb(243, 229, 229);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.submit a:hover {
+    background-color: rgb(82, 77, 77);
+    color: rgb(158, 155, 150);
+}
+.right{
+    
+    padding: 8rem 0 0 10rem;
+}
+.security h2{
+    color: rgb(15, 15, 15);
+    z-index: 99;
+}
+.fa-lock{
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: rgb(17, 16, 16);
+}
+#chatcall{
+    padding-top: 20px;
+    color: rgb(10, 9, 9); 
+}
+.security p{
+    padding-top: 20px;
+}
+.chat{
+    display: flex;
+}
+.fa-comments{
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(8, 8, 8); 
+}
+#text{
+    padding-left: 20px;
+}
+.call{
+    display: flex;
+}
+.fa-phone{
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(15, 13, 13);
+}
+#auto{
+    padding-left: 20px;
+}
+.paperclip{
+    display: flex;
+}
+.fa-paperclip{
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(17, 16, 16);
+}
+#photo{
+    padding-left: 20px;
+}
+.location{
+    display: flex;
+}
+.fa-location-pin{
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(12, 11, 11);
+}
+#lo{
+    padding-left: 20px;
+}
+
+/* .learnmore{
+    margin-top: 30px;
+}
+.learnmore a {
+    text-decoration: none;
+    background-color: rgb(19, 17, 17);
+    padding: 10px 15px;
+    width: 90px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.learnmore a:hover {
+    background-color: rgb(128, 123, 123);
+    color: rgb(190, 188, 184);
+} */
+
+.notifications {
+    z-index: 99;
+    padding: 8rem 0 0 10rem;
+    
+}
+.notifications h2{
+    color: rgb(22, 20, 20);
+}
+
+.fa-bell{
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgb(26, 24, 24);
+}
+#pushnotification{
+    padding-top: 20px;
+    color: rgb(24, 23, 23); 
+}
+.notifications p{
+    padding-top: 25px;
+}
+.notifications h4{
+padding-top: 20px;
+}
+
+
+
+    

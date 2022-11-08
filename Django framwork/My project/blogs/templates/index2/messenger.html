@@ -1,0 +1,62 @@
+{% extends 'index2/base.html' %}{% load static %} {% block box1%}
+<link rel="stylesheet" href="{% static 'messenger01.css' %}" />
+{% csrf_token %}
+<div class="box">
+  <div class="left">
+    <div class="z">
+      <h2> {{user.username}}</h2>
+      <i class="fa-solid fa-angle-down"></i>
+      <i class="fa-regular fa-pen-to-square"></i>
+    </div>
+    {% for i in mess %}
+    <div class="houp">
+      <img src="{{i.image_messenger.url}}" alt="" />
+      <a href="#boxchat">{{i.title_messenger}}</a>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>
+  <!-- ///////////////////////// -->
+  <div class="boxchat" id="boxchat">
+    <div class="one_list">
+      <ul class="iname__time">
+        <li>
+          <img class="img" id="image_person" src="{% static 'img/vik.jpg' %}" alt="">
+        </li>
+        <li class="n_ofperson">
+          <p>Vick</p>
+        </li>
+      </ul>
+      <li class="lasticon">
+        <a href="#"><i class="fa-solid fa-phone"></i></a>
+        <a href="#"><i class="fa-solid fa-video"></i></a>
+        <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+      </li>
+    </div>
+    <div class="other_chat">
+      <ul class="text_chat">
+        <li>
+          <p>Good morning </p>
+          <p class="time__">7:04A M</p>
+        </li>
+        <li>
+          <p> Helooooooooooooooooooooooo</p>
+          <p class="time__">7:04A M</p>
+        </li>
+      </ul>
+    </div>
+    <div class="text_message">
+      <i class="fa-sharp fa-solid fa-face-smile emoji"></i>
+      <i class="fa-solid fa-paperclip tow_o"></i>
+      <div class="message">
+        <input type="text" placeholder="Message">
+        <i class="fa-solid fa-camera tow_p"></i>
+        <a href="#" class="send"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+      </div>
+
+    </div>
+  </div>
+
+  
+{% endblock %}
